@@ -1,0 +1,9 @@
+Alright so getting from owls.csv to the word document with the actual cards is complicated, but the way I did it is with a mail merge.
+
+The word document with the cards should be on HuskyCT (it's wayyyy too big to put on github).
+
+This was a pain in the butt and if you want to try to make new cards with new probabilities, I wouldn't try to do it yourself.
+
+Honestly, just ask Miranda for my personal phone number and call me. We'll talk about how to do a mail merge.
+
+Or search how to do a mail merge, and godspeed.
