@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>pa.kml</name>
+	<open>1</open>
+	<Schema name="pa" id="pa">
+		<SimpleField type="string" name="OBJECTID"></SimpleField>
+		<SimpleField type="string" name="TOWN"></SimpleField>
+		<SimpleField type="int" name="TOWN_NO"></SimpleField>
+		<SimpleField type="string" name="MBL"></SimpleField>
+		<SimpleField type="string" name="PIN"></SimpleField>
+		<SimpleField type="string" name="LOCATION"></SimpleField>
+		<SimpleField type="float" name="ACRES"></SimpleField>
+		<SimpleField type="float" name="SHAPE_Leng"></SimpleField>
+		<SimpleField type="float" name="SHAPE_Area"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>pa</name>
+		<open>1</open>
+		<Placemark>
+			<name>road</name>
+			<description>Mansfield</description>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#pa">
+					<SimpleData name="OBJECTID">78</SimpleData>
+					<SimpleData name="TOWN">ROW</SimpleData>
+					<SimpleData name="PIN">988.348595421</SimpleData>
+					<SimpleData name="LOCATION">4.820324630864003</SimpleData>
+					<SimpleData name="ACRES">0.000433233793435</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72.262066,41.809073,0 -72.262066,41.8092581218052,0 -72.2619909,41.8092912,0 -72.26168010000001,41.8093567,0 -72.26149460000001,41.8094018,0 -72.26139569999999,41.8094238,0 -72.26129640000001,41.8094445,0 -72.2611965,41.8094639,0 -72.26114579999999,41.8094731,0 -72.2610962,41.809482,0 -72.2609956,41.8094988,0 -72.25935800000001,41.8097605,0 -72.25930750000001,41.8097689,0 -72.25925719999999,41.809778,0 -72.25920720000001,41.8097877,0 -72.2591573,41.8097981,0 -72.2591078,41.8098091,0 -72.25905849999999,41.8098208,0 -72.2590094,41.8098331,0 -72.2589607,41.809846,0 -72.25891230000001,41.8098596,0 -72.2588642,41.8098738,0 -72.2588164,41.8098887,0 -72.258769,41.8099041,0 -72.2587219,41.8099202,0 -72.25867529999999,41.8099369,0 -72.258629,41.8099542,0 -72.2585832,41.8099721,0 -72.25853770000001,41.8099906,0 -72.25849270000001,41.8100097,0 -72.2584482,41.8100294,0 -72.25840410000001,41.8100496,0 -72.2583558,41.8100728,0 -72.2579781,41.8102517,0 -72.25774389999999,41.8103571,0 -72.2575073,41.8104594,0 -72.2572684,41.8105586,0 -72.2563665,41.8109254,0 -72.2562705,41.8109264,0 -72.254865,41.8113911816394,0 -72.254865,41.8111511598163,0 -72.2561518,41.8107256,0 -72.2571282,41.8103657,0 -72.2573627,41.8102684,0 -72.2575949,41.810168,0 -72.25782460000001,41.8100646,0 -72.2581953,41.809889,0 -72.2583905,41.8098079,0 -72.2585359,41.8097505,0 -72.25868250000001,41.8096949,0 -72.25883039999999,41.8096413,0 -72.2589796,41.8095896,0 -72.2591299,41.8095399,0 -72.25928140000001,41.8094921,0 -72.2602126,41.8092995,0 -72.2602747,41.8092929,0 -72.2606936,41.8092486,0 -72.2607873,41.8092381,0 -72.2608808,41.8092264,0 -72.2609741,41.8092134,0 -72.2610215,41.8092059,0 -72.2611371,41.8091876,0 -72.261129,41.8091557,0 -72.2611924,41.8091333,0 -72.26127870000001,41.809115,0 -72.2613645,41.8090956,0 -72.2614499,41.8090751,0 -72.2614580481402,41.8090730173809,0 -72.262066,41.809073,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>busby</name>
+			<description>Mansfield</description>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#pa">
+					<SimpleData name="OBJECTID">78</SimpleData>
+					<SimpleData name="TOWN">8.23.11</SimpleData>
+					<SimpleData name="PIN">222.350177375</SimpleData>
+					<SimpleData name="LOCATION">0.074377445175898</SimpleData>
+					<SimpleData name="ACRES">9.7506841454e-05</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72.262066,41.8137571161136,0 -72.262066,41.81596,0 -72.2583868860747,41.8159600561886,0 -72.2574791,41.8148688,0 -72.2594649,41.8147643,0 -72.262066,41.8137571161136,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>woods</name>
+			<description>Mansfield</description>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#pa">
+					<SimpleData name="OBJECTID">78</SimpleData>
+					<SimpleData name="TOWN">9.23.15</SimpleData>
+					<SimpleData name="PIN">53.5243533169</SimpleData>
+					<SimpleData name="LOCATION">0.030145929137783</SimpleData>
+					<SimpleData name="ACRES">2.3470990965e-05</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72.2583868860747,41.8159600561886,0 -72.25569754919189,41.8159600229918,0 -72.2556744,41.8158494,0 -72.2556022,41.815505,0 -72.254865,41.8157034446317,0 -72.254865,41.8126727598548,0 -72.2556672,41.8124793,0 -72.2574791,41.8148688,0 -72.2583868860747,41.8159600561886,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>cemetery</name>
+			<description>Mansfield</description>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#pa">
+					<SimpleData name="OBJECTID">78</SimpleData>
+					<SimpleData name="TOWN">9.23.25</SimpleData>
+					<SimpleData name="PIN">16.1037730252</SimpleData>
+					<SimpleData name="LOCATION">0.012992951703273</SimpleData>
+					<SimpleData name="ACRES">7.061454425e-06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72.254865,41.8114212318983,0 -72.254865,41.8113911816394,0 -72.2562705,41.8109264,0 -72.2563665,41.8109254,0 -72.2585988,41.8138848,0 -72.2587959,41.8138379,0 -72.2594649,41.8147643,0 -72.2574791,41.8148688,0 -72.2556672,41.8124793,0 -72.254865,41.8114212318983,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>north hall</name>
+			<description>Mansfield</description>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#pa">
+					<SimpleData name="OBJECTID">78</SimpleData>
+					<SimpleData name="TOWN">9-UNK-1</SimpleData>
+					<SimpleData name="PIN">82.8717307037</SimpleData>
+					<SimpleData name="LOCATION">0.031638221328491</SimpleData>
+					<SimpleData name="ACRES">3.6337950239e-05</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72.262066,41.8092581218052,0 -72.262066,41.8094422632346,0 -72.2619909,41.8092912,0 -72.262066,41.8092581218052,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72.262066,41.8110080272728,0 -72.262066,41.8137571161136,0 -72.2594649,41.8147643,0 -72.2587959,41.8138379,0 -72.2585988,41.8138848,0 -72.2563665,41.8109254,0 -72.2572684,41.8105586,0 -72.2575073,41.8104594,0 -72.25774389999999,41.8103571,0 -72.2579781,41.8102517,0 -72.2583558,41.8100728,0 -72.25840410000001,41.8100496,0 -72.2584482,41.8100294,0 -72.25849270000001,41.8100097,0 -72.25853770000001,41.8099906,0 -72.2585832,41.8099721,0 -72.258629,41.8099542,0 -72.25867529999999,41.8099369,0 -72.2587219,41.8099202,0 -72.258769,41.8099041,0 -72.2588164,41.8098887,0 -72.2588642,41.8098738,0 -72.25891230000001,41.8098596,0 -72.2589607,41.809846,0 -72.2590094,41.8098331,0 -72.25905849999999,41.8098208,0 -72.2591078,41.8098091,0 -72.2591573,41.8097981,0 -72.25920720000001,41.8097877,0 -72.25925719999999,41.809778,0 -72.25930750000001,41.8097689,0 -72.25935800000001,41.8097605,0 -72.2609956,41.8094988,0 -72.2610962,41.809482,0 -72.26114579999999,41.8094731,0 -72.2617887,41.8103072,0 -72.26179569999999,41.8103179,0 -72.26180189999999,41.8103279,0 -72.26180789999999,41.8103381,0 -72.2618137,41.8103483,0 -72.2618193,41.8103586,0 -72.2618246,41.810369,0 -72.2618296,41.8103795,0 -72.2618344,41.81039,0 -72.26183899999999,41.8104005,0 -72.2618433,41.8104112,0 -72.26184739999999,41.8104219,0 -72.2618512,41.8104326,0 -72.26185479999999,41.8104434,0 -72.2618581,41.8104542,0 -72.2618611,41.8104651,0 -72.26186389999999,41.810476,0 -72.2618665,41.8104869,0 -72.2618688,41.8104979,0 -72.2618708,41.8105089,0 -72.2618726,41.8105199,0 -72.2618741,41.810531,0 -72.26187539999999,41.8105421,0 -72.26187640000001,41.8105531,0 -72.2618772,41.8105642,0 -72.2618777,41.8105753,0 -72.2618779,41.8105864,0 -72.2618779,41.8105976,0 -72.26187760000001,41.8106087,0 -72.26187710000001,41.8106198,0 -72.2618762,41.8106309,0 -72.26187520000001,41.8106419,0 -72.2618739,41.810653,0 -72.26187229999999,41.8106641,0 -72.2618705,41.8106751,0 -72.26186939999999,41.8106811,0 -72.2618686,41.8106872,0 -72.2618678,41.8106933,0 -72.26186730000001,41.8106994,0 -72.26186680000001,41.8107055,0 -72.2618665,41.8107116,0 -72.2618664,41.8107177,0 -72.2618664,41.8107238,0 -72.2618665,41.8107299,0 -72.26186680000001,41.810736,0 -72.2618672,41.8107421,0 -72.2618677,41.8107482,0 -72.2618684,41.8107543,0 -72.2618693,41.8107603,0 -72.2618702,41.8107664,0 -72.2618714,41.8107724,0 -72.2618726,41.8107785,0 -72.26187400000001,41.8107845,0 -72.2618756,41.8107905,0 -72.26187729999999,41.8107965,0 -72.2618791,41.8108024,0 -72.261881,41.8108083,0 -72.26188310000001,41.8108142,0 -72.2618854,41.8108201,0 -72.2618877,41.810826,0 -72.2618903,41.8108318,0 -72.26189290000001,41.8108375,0 -72.2618957,41.8108433,0 -72.26189859999999,41.810849,0 -72.2619016,41.8108547,0 -72.2619048,41.8108603,0 -72.2619081,41.8108659,0 -72.2619115,41.8108714,0 -72.2619151,41.8108769,0 -72.2619188,41.8108823,0 -72.26192260000001,41.8108877,0 -72.2619266,41.8108931,0 -72.2619306,41.8108984,0 -72.26193480000001,41.8109036,0 -72.26193910000001,41.8109088,0 -72.2619436,41.8109139,0 -72.2619481,41.810919,0 -72.2619528,41.810924,0 -72.2619576,41.8109289,0 -72.2619625,41.8109338,0 -72.2619675,41.8109386,0 -72.26197260000001,41.8109434,0 -72.26197790000001,41.8109481,0 -72.2619832,41.8109527,0 -72.2619886,41.8109572,0 -72.2619942,41.8109617,0 -72.26199990000001,41.8109661,0 -72.26200559999999,41.8109704,0 -72.2620115,41.8109747,0 -72.2620174,41.8109789,0 -72.2620235,41.8109829,0 -72.2620297,41.810987,0 -72.2620359,41.8109909,0 -72.2620422,41.8109947,0 -72.2620486,41.8109985,0 -72.26205520000001,41.8110022,0 -72.2620618,41.8110058,0 -72.262066,41.8110080272728,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>tls</name>
+			<description>Mansfield</description>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#pa">
+					<SimpleData name="OBJECTID">78</SimpleData>
+					<SimpleData name="TOWN">16.36.17</SimpleData>
+					<SimpleData name="PIN">367.433449881</SimpleData>
+					<SimpleData name="LOCATION">0.080450566924423</SimpleData>
+					<SimpleData name="ACRES">0.000161097079317</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72.254865,41.8111511598163,0 -72.254865,41.809073,0 -72.2599613784007,41.8090730465108,0 -72.260004,41.8091678,0 -72.26014309999999,41.8091494,0 -72.2602126,41.8092995,0 -72.25928140000001,41.8094921,0 -72.2591299,41.8095399,0 -72.2589796,41.8095896,0 -72.25883039999999,41.8096413,0 -72.25868250000001,41.8096949,0 -72.2585359,41.8097505,0 -72.2583905,41.8098079,0 -72.2581953,41.809889,0 -72.25782460000001,41.8100646,0 -72.2575949,41.810168,0 -72.2573627,41.8102684,0 -72.2571282,41.8103657,0 -72.2561518,41.8107256,0 -72.254865,41.8111511598163,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>notWoods</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-72.256827316749,41.81595854281156,0 -72.25613918392106,41.81492744901333,0 -72.2560039329335,41.81478298134012,0 -72.25600932458455,41.81471503190183,0 -72.25589555605339,41.81460739627503,0 -72.25579233303054,41.81452089617576,0 -72.25604455444052,41.814333651205,0 -72.255738168102,41.81412828992133,0 -72.25587439148991,41.81407403822516,0 -72.25486441052658,41.81347504340397,0 -72.25424879206575,41.812829131035,0 -72.2538738962903,41.81519173793127,0 -72.25452704567317,41.81651661136755,0 -72.256827316749,41.81595854281156,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>isWoods</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-72.25529968839598,41.81232747694746,0 -72.25503440765245,41.81251049352886,0 -72.25494295723804,41.81249008918684,0 -72.25485986342747,41.8125517095275,0 -72.25425096449119,41.81282399313635,0 -72.25486188022565,41.81346786884568,0 -72.25593063284347,41.81283920111283,0 -72.25543945357936,41.81217752254324,0 -72.25529968839598,41.81232747694746,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>isWoods2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-72.2588409691794,41.81595927296469,0 -72.25862068970225,41.81500968123049,0 -72.25850075402035,41.81460782906066,0 -72.25809182818696,41.81434057988591,0 -72.25760311353481,41.81441134185122,0 -72.25721816507267,41.81457702954426,0 -72.25810490106367,41.81594714482642,0 -72.258343870674,41.81601214395496,0 -72.2588409691794,41.81595927296469,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
