@@ -1,0 +1,8 @@
+You may be experiencing an issue in your class where the time lag isn't working as it should
+Basically, when r * tau is just slightly more than 1.57 (i.e. 1.6) you should see stable limit cycles
+But instead what you see is still dampened oscilations.
+This comes from the fact that the resolution of the lines in this program are 1/10 of a timestep
+
+Other programs are much better coded, and so they can run at much higher resolution (i.e. 1/1000 of a timestep) which eliminates this issue
+If you want to set "minstep" in the code to be something less than .1 go ahead,
+Just know that it might slow the program down! It's a tradeoff
